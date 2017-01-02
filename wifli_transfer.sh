@@ -9,6 +9,7 @@ if [ $# == 1 ] && [ -e $1 ] && ! [ -d $1 ]; then
  hexdump -v -e '128/1 "_%02x"' -e '"\n"' $1 | sed -e 's/_/\\\\x/g;s/\\\\x  //g' -e "s/^/send \"echo -e -n \'/;s/$/\' >> \/bin\/"$1'\\r'"\"\nexpect \"#\"/" >> cmd.tmp
  echo 'interact' >> cmd.tmp
  expect -f cmd.tmp
+ rm cmd.tmp
 else 
  echo "Usage: $0 [binary file]"
 fi
