@@ -3,7 +3,7 @@ A utility for uploading binary files to the Wifli helicopter by Interactive Toy 
 
 This script makes it possible to upload a binary file via telnet to the Wifli Helicopter. 
 
-This script requires *netcat*, *expect* and *hexdump*. 
+This script requires *nc*, *hexdump* and *expect*. 
 
 Usage: 
 >./wifli_transfer [binary file in current directory] 
