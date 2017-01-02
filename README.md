@@ -6,6 +6,6 @@ This script makes it possible to upload a binary file via telnet to the Wifli He
 This script requires *netcat*, *expect* and *hexdump*. 
 
 Usage: 
->./wifli_transfer [binary file] 
+>./wifli_transfer [binary file in current directory] 
 
 This can also be used on other devices that only allow a telnet connection, with some modifications. 
