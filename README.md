@@ -7,3 +7,5 @@ This script requires *netcat*, *expect* and *hexdump*.
 
 Usage: 
 >./wifli_transfer [binary file] 
+
+This can also be used on other devices that only allow a telnet connection, with some modifications. 
