@@ -1,7 +1,7 @@
 # wifli_transfer
 A utility for uploading binary files to the Wifli helicopter by Interactive Toy Concepts. My original goal was to facilitate dumping the firmware from the device. 
 
-This script makes it possible to upload a binary file via telnet to the Wifli Helicopter. 
+This script makes it possible to transfer a binary file via telnet to the Wifli Helicopter. 
 
 This script requires *nc*, *hexdump* and *expect*. 
 
