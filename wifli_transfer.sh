@@ -11,5 +11,5 @@ if [ $# == 1 ] && [ -e $1 ] && ! [ -d $1 ]; then
  expect -f cmd.tmp
  rm cmd.tmp
 else 
- echo "Usage: $0 [binary file]"
+ echo "Usage: $0 [binary file in current directory]"
 fi
