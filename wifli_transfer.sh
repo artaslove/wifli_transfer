@@ -13,4 +13,5 @@ if [ $# == 1 ] && [ -e $1 ] && ! [ -d $1 ]; then
 else 
  echo "Usage: $0 [binary file in current directory]"
 fi
-# Hint: upload nc for that architecture and use that now instead of this initial script.
+# Hint: upload static nc for mips and use that now instead of this initial script.
+# http://forums.hackaday.com/viewtopic.php?f=8&t=1743
