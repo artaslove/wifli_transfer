@@ -14,4 +14,5 @@ else
  echo "Usage: $0 [binary file in current directory]"
 fi
 # Hint: upload static nc for mips and use that now instead of this initial script.
+# http://hackaday.com/2012/06/11/adding-a-router-and-wireless-camera-to-a-remote-controlled-helicopter/
 # http://forums.hackaday.com/viewtopic.php?f=8&t=1743
