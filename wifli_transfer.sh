@@ -13,3 +13,4 @@ if [ $# == 1 ] && [ -e $1 ] && ! [ -d $1 ]; then
 else 
  echo "Usage: $0 [binary file in current directory]"
 fi
+# Hint: now that you've uploaded nc for that architecture, use that instead
